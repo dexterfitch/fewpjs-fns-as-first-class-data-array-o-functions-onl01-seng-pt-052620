@@ -33,3 +33,6 @@ function unleashDog(dogName, dogBreed) {
   console.log(task);
   return task;
 }
+
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+
