@@ -1,23 +1,35 @@
 function wakeDog(dogName, dogBreed) {
-  console.log(`Wake ${dogName} the ${dogBreed}`);
+  task = `Wake ${dogName} the ${dogBreed}`;
+  console.log(task);
+  return task;
 }
 
 function leashDog(dogName, dogBreed) {
-  console.log(`Leash ${dogName} the ${dogBreed}`);
+  task = `Leash ${dogName} the ${dogBreed}`;
+  console.log(task);
+  return task;
 }
 
 function walkToPark(dogName, dogBreed) {
-  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
+  task = `Walk to the park with ${dogName} the ${dogBreed}`;
+  console.log(task);
+  return task;
 }
 
 function throwFrisbee(dogName, dogBreed) {
-  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+  task = `Throw the frisbee for ${dogName} the ${dogBreed}`;
+  console.log(task);
+  return task;
 }
 
 function walkHome(dogName, dogBreed) {
-  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  task = `Walk home with ${dogName} the ${dogBreed}`;
+  console.log(task);
+  return task;
 }
 
 function unleashDog(dogName, dogBreed) {
-  console.log(`Unleash ${dogName} the ${dogBreed}`);
+  task = `Unleash ${dogName} the ${dogBreed}`;
+  console.log(task);
+  return task;
 }
