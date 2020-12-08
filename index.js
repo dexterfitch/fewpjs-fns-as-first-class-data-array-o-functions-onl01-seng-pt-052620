@@ -37,7 +37,9 @@ function unleashDog(dogName, dogBreed) {
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
 
 function exerciseDog(dogName, dogBreed) {
+  let completedTasks = [];
   routine.forEach( function(taskFunction) {
-    taskFunction(dogName, dogBreed);
+    completedTasks.push(taskFunction(dogName, dogBreed));
   });
+  return completedTasks;
 }
